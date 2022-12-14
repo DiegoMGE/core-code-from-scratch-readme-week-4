@@ -28,3 +28,34 @@ Algoritmo averageSalesAndCommission
 	FinSi
 FinAlgoritmo
 ```
+
+### Even or odd
+```python
+Algoritmo evenOrOdd
+	maxNumber = 50
+	
+	Repetir
+		Imprimir 'Write a number between 1 and 50'
+		Leer number
+		Si number > 50 Entonces
+			Imprimir 'Invalid number'
+		FinSi
+	Mientras Que number > maxNumber
+	
+	par = number % 2 == 0
+	impar = number % 2 == 1
+	
+	Imprimir 'par: ' par
+	Imprimir 'impar: ' impar
+	
+	Para value = 1 Hasta number Con Paso 1 Hacer
+		Si (value % 2 == 0) & par Entonces
+			Imprimir 'Even: ' value
+		FinSi
+		Si (value % 2 == 1) & impar Entonces
+			Imprimir 'Odd: ' value
+		FinSi
+	FinPara
+	
+FinAlgoritmo
+```
