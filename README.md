@@ -59,3 +59,19 @@ Algoritmo evenOrOdd
 	
 FinAlgoritmo
 ```
+
+## Tuesday Challenges
+- [Full name]()
+```python
+Algoritmo fullName
+	Imprimir 'Your first name'
+	Leer firstName
+	Imprimir 'Your last name'
+	Leer lastName
+	
+	ccFirstName = Mayusculas(Subcadena(firstName, 0, 0)) + Minusculas(Subcadena(firstName, 1, Longitud(firstName) - 1))
+	ccLastName = Mayusculas(Subcadena(lastName, 0, 0)) + Minusculas(Subcadena(lastName, 1, Longitud(lastName) - 1))
+	
+	Imprimir ccFirstName + ' ' + ccLastName
+FinAlgoritmo
+```
