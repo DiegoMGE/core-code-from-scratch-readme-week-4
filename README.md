@@ -62,6 +62,8 @@ FinAlgoritmo
 
 ## Tuesday Challenges
 - [Full name]()
+
+### Full name
 ```python
 Algoritmo fullName
 	Imprimir 'Your first name'
