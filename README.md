@@ -61,7 +61,8 @@ FinAlgoritmo
 ```
 
 ## Tuesday Challenges
-- [Full name]()
+- [Full name](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#full-name)
+- [Throw dice]()
 
 ### Full name
 ```python
@@ -75,5 +76,23 @@ Algoritmo fullName
 	ccLastName = Mayusculas(Subcadena(lastName, 0, 0)) + Minusculas(Subcadena(lastName, 1, Longitud(lastName) - 1))
 	
 	Imprimir ccFirstName + ' ' + ccLastName
+FinAlgoritmo
+```
+
+### Throw dice
+```python
+Algoritmo throwDice
+		
+	Para count = 1 Hasta 10 Hacer
+		dice1 = Azar(100)
+		dice2 = Azar(100)
+		
+		Si dice1 == dice2 Entonces
+			Imprimir dice1 ' ' dice2 ' the dice are the same'
+		SiNo
+			Imprimir dice1 ' ' dice2
+		FinSi
+	FinPara
+	
 FinAlgoritmo
 ```
