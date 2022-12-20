@@ -62,7 +62,7 @@ FinAlgoritmo
 
 ## Tuesday Challenges
 - [Full name](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#full-name)
-- [Throw dice]()
+- [Throw dice](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#throw-dice)
 
 ### Full name
 ```python
@@ -93,6 +93,29 @@ Algoritmo throwDice
 			Imprimir dice1 ' ' dice2
 		FinSi
 	FinPara
+	
+FinAlgoritmo
+```
+
+## Wednesday Challenges
+- [Distance to zero]()
+- [Toss coin]()
+
+### Distance to zero
+```python
+Algoritmo distanceToZero
+	Escribir 'Wirte a number'
+	Leer maxDistance
+	
+	Para count = 1 Hasta 4 Hacer
+		Imprimir 'Write a number'
+		Leer number
+		Si Abs(number) > Abs(maxDistance) Entonces
+			maxDistance = number
+		FinSi
+	FinPara
+	
+	Imprimir trunc(maxDistance)
 	
 FinAlgoritmo
 ```
