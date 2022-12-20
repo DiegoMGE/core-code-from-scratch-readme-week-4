@@ -164,3 +164,27 @@ Algoritmo tossCoin
 	
 FinAlgoritmo
 ```
+
+## Thursday Challenges
+- [Total price]()
+- [Reverse direction and size]()
+
+### Total price
+```python
+Funcion money <- totalPrice (price, iva)
+	Definir money Como Real
+	valueTotalPrice = price + ((price * iva) / 100)
+	
+	Si price > 3000 Entonces
+		money = valueTotalPrice - (valueTotalPrice * 0.10)
+		Imprimir 'El descuento de ' valueTotalPrice ' es ' money
+	SiNo
+		money = valueTotalPrice
+	FinSi
+	
+FinFuncion
+
+Algoritmo functionTotalPrice
+	Imprimir totalPrice(5000, 21)
+FinAlgoritmo
+```
