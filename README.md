@@ -188,3 +188,28 @@ Algoritmo functionTotalPrice
 	Imprimir totalPrice(5000, 21)
 FinAlgoritmo
 ```
+
+### Reverse direction and size
+```python
+Funcion resultValue <- reverseDirectionAndSize(text)
+	Definir resultValue  Como Caracter
+	resultValue  = ""
+	
+	Para count = Longitud(text) Hasta 0 Hacer
+		letter = Subcadena(text, count, count)
+		
+		Si letter == Mayusculas(letter) Entonces
+			letter = Minusculas(letter) 
+		SiNo
+			letter = Mayusculas(letter)
+		FinSi
+		
+		resultValue = Concatenar(resultValue, letter)
+	FinPara
+	
+FinFuncion
+
+Algoritmo functionReverseDirectionAndSize
+	Imprimir reverseDirectionAndSize('DIeGUiTo')
+FinAlgoritmo
+```
