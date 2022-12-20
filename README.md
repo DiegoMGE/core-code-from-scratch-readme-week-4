@@ -3,6 +3,15 @@
 ## Monday Challenges
 - [Average sales and commission](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#average-sales-and-commission)
 - [Even or odd](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#even-or-odd)
+## Tuesday Challenges
+- [Full name](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#full-name)
+- [Throw dice](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#throw-dice)
+## Wednesday Challenges
+- [Distance to zero](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#distance-to-zero)
+- [Toss coin](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#toss-coin)
+## Thursday Challenges
+- [Total price](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#total-price)
+- [Reverse direction and size](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#reverse-direction-and-size)
 
 ### Average sales and commission
 ```python
@@ -60,10 +69,6 @@ Algoritmo evenOrOdd
 FinAlgoritmo
 ```
 
-## Tuesday Challenges
-- [Full name](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#full-name)
-- [Throw dice](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#throw-dice)
-
 ### Full name
 ```python
 Algoritmo fullName
@@ -96,10 +101,6 @@ Algoritmo throwDice
 	
 FinAlgoritmo
 ```
-
-## Wednesday Challenges
-- [Distance to zero](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#distance-to-zero)
-- [Toss coin](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#toss-coin)
 
 ### Distance to zero
 ```python
@@ -164,10 +165,6 @@ Algoritmo tossCoin
 	
 FinAlgoritmo
 ```
-
-## Thursday Challenges
-- [Total price]()
-- [Reverse direction and size]()
 
 ### Total price
 ```python
