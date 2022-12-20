@@ -119,3 +119,48 @@ Algoritmo distanceToZero
 	
 FinAlgoritmo
 ```
+
+### Toss coin
+```python
+Algoritmo tossCoin
+	
+	Imprimir 'Enter the name of the first player.'
+	Leer firstPlayer
+	Imprimir 'Enter the amount to play.'
+	Definir firstAmount Como Real
+	Leer firstAmount
+	Imprimir 'Enter the name of the second player.'
+	Leer secondPlayer
+	Imprimir 'Enter the amount to play.'
+	Definir secondAmount Como Real
+	Leer secondAmount
+
+	flip = Aleatorio(1, 2)
+	
+	Imprimir 'Flipping coins!'
+	Para count = 1 Hasta 10 Hacer
+		Imprimir '...'
+	FinPara
+	
+	Si firstAmount <= 0 | secondAmount <= 0 Entonces
+		Si firstAmount <= 0 & secondAmount <= 0 Entonces
+			Imprimir 'Game canceled because both are cheating!'
+		SiNo
+			Si firstAmount <= 0 Entonces
+				Imprimir firstPlayer ' is cheating.'
+				Imprimir 'Player ' Mayusculas(secondPlayer) ' wins, amount won: ' secondAmount
+			SiNo
+				Imprimir secondPlayer ' is cheating.'
+				Imprimir 'Player ' Mayusculas(firstPlayer) ' wins, amount won: ' firstAmount
+			FinSi
+		FinSi
+	SiNo 
+		Si flip = 1 Entonces
+			Imprimir 'Player ' Mayusculas(firstPlayer) ' wins, amount won: ' firstAmount
+		SiNo
+			Imprimir 'Player ' Mayusculas(secondPlayer) ' wins, amount won: ' secondAmount
+		FinSi
+	FinSi
+	
+FinAlgoritmo
+```
