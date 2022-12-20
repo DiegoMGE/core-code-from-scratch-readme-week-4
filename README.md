@@ -98,8 +98,8 @@ FinAlgoritmo
 ```
 
 ## Wednesday Challenges
-- [Distance to zero]()
-- [Toss coin]()
+- [Distance to zero](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#distance-to-zero)
+- [Toss coin](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-4/blob/main/README.md#toss-coin)
 
 ### Distance to zero
 ```python
